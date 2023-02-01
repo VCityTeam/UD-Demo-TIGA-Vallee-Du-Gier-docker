@@ -18,7 +18,7 @@ RUN git --version
 
 RUN git clone https://github.com/VCityTeam/UD-Demo-TIGA-Vallee-Du-Gier.git
 WORKDIR UD-Demo-TIGA-Vallee-Du-Gier
-RUN npm ci
+RUN npm i
 RUN npm run build
 
 ######### Install the ExpressJS server
