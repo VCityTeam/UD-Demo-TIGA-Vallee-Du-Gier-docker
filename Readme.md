@@ -1,7 +1,7 @@
 # Vallée du Gier
 
 Create a docker of the [Vallée du Gier project](https://github.com/VCityTeam/UD-Demo-TIGA-Vallee-Du-Gier).  
-_See the [online version]()_.
+_See the [online version](https://www.imuvirtuel.fr/vcity/valleedugier/)_.
 
 The demo uses a [SimpleServer](https://github.com/VCityTeam/UD-SimpleServer), based on [ExpressJS](https://en.wikipedia.org/wiki/Express.js) web-server.
 
