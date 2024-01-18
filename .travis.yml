@@ -2,18 +2,18 @@ os: linux
 dist: focal
 language: node_js
 node_js:
-  - 14
+  - 16
 services:
   - docker
 
 jobs:
   include:
-    - stage: Demo-UI-driven
+    - stage: Demo-VDG
       script:
-        - docker build -t ud-viz:demo-ui-driven .
+        - docker build -t ud-viz:demo-vdg .
     - stage: "Markdown link checks"
       language: node_js
-      node_js: 14
+      node_js: 16
       script:
         - npm install --global remark-cli remark-validate-links
         - remark -u validate-links .
